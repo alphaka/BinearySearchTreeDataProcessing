@@ -104,7 +104,7 @@ public class MyApp {
 		
 		PrintStream ps = new PrintStream(new File(System.getProperty("user.dir")+"/src/"+"Facts.csv"));
 		
-		ps.println("Artist,Total Streams,Average Monthly Strems,Average Weekly Streams");
+		ps.println("Artist,Total Streams,Average Monthly Streams,Average Weekly Streams");
 		// We have 13 weekly csv files for a quarter of the year (3 months)
 		
 		//Below, I am using the lambda function of the forEach method to iterate through the
